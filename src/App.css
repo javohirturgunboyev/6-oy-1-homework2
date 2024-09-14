@@ -1,0 +1,122 @@
+.header{
+  margin-left: 41px;
+  margin-right: 107px;
+display: flex;
+justify-content: space-between;
+}
+.Headers ul {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+display: flex;
+list-style: none;
+gap: 26px;
+}
+
+.Headers ul li:hover{
+  background: #83CD20;
+border-radius:5px
+}
+
+.header h1{
+color: #034833;
+}
+
+.header p{
+color: #034833;
+}
+
+.main{
+background-color: #2c5549;
+width: 1682px;
+height: 700px;
+top: 20px;
+gap: 0px;
+opacity: 0.4px;
+
+}
+
+.main h1{
+  color: #fff;
+width: 983.54px;
+font-size: 80px;
+padding-top: 210px;
+padding-left: 420px;
+}
+
+.main p{
+  color: #fff;
+padding-left: 520px;
+font-size: 16px;
+}
+
+.main button{
+  background-color: #83CD20;
+width: 159px;
+height: 60px;
+padding:20px, 30px, 20px, 30px ;
+border-radius: 150px; 
+margin-left: 640px;
+}
+
+.main span{
+color: #83CD20;
+}
+
+.footer{
+  margin-top: 120px;
+display: flex;
+align-items: center;
+gap: 90px;
+margin-bottom: 100px;
+}
+
+.image{
+padding-left: 215px;
+}
+
+.about-title {
+  font-size: 14px;
+  color: #034833;
+  font-weight: 400;
+}
+
+.text-about {
+  font-size: 50px;
+}
+
+.about-span {
+  color: #034833;
+}
+
+.about-p {
+  font-size: 16px;
+  color: #727272;
+}
+
+.check {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  width: 270px;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+
+
+.about-btn {
+  background-color: #83CD20;
+  color: #fff;
+  border-radius:20px;
+  padding: 8px 12px;
+  margin-left: -10px;
+  margin-top: 10px;
+}
