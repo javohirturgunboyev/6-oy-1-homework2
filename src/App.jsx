@@ -1,3 +1,4 @@
+import routex from './assets/rocket.img.png'
 import cart from './assets/cart.png'
 import './App.css'
 function App() {
@@ -7,7 +8,11 @@ function App() {
     <>
     <header>
     <div className='header'>
+      <div className='routex'>
+      <img src={routex} />
         <h1>RouteX</h1>
+      </div>
+    
 
         <div className='Headers'>
           <ul>
